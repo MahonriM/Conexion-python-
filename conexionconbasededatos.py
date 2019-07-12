@@ -1,7 +1,7 @@
 import sqlite3
 from tkinter import *
 def conexion():
-    conn=sqlite3.connect("")
+    conn=sqlite3.connect("prueba.db")
     lbl.configure(text="Estas conectado")
 vtn=Tk()
 vtn.iconbitmap("logo.ico")
